@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Potfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      background-color: rgb(0, 0, 0);
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .firstsection {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 80px 0px;
+
+      color: violet;
+    }
+
+    .firstsection>div {
+      width: 30%;
+    }
+
+    .leftsection {
+      font-size: 2rem;
+      margin: 5px 0px;
+    }
+
+    .Rightsection img {
+      width: 80%;
+      margin: 4px;
+    }
+
+    .left {
+      font-size: 2rem;
+      margin: 30px 0;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    nav ul li a:hover {
+      color: rgb(143, 143, 233);
+      font-size: 1.14rem;
+    }
+
+    nav ul li a {
+      color: white;
+    }
+
+    #element {
+      color: White;
+    }
+
+    .secondSection {
+      max-width: 87vw;
+      height: 80vh;
+      margin: auto;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .secondSection .box {
+      background-color: rgb(255, 251, 251);
+      height: 2px;
+      width: 69vw;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .box .vertical
+
+    /*keep space in classes* write correct spellings*/
+      {
+      background-color: rgb(243, 250, 243);
+      height: 100px;
+      width: 4px;
+      margin: 0 100px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: 3px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 79px;
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+    }
+
+    .footer {
+      background-color: rgb(0, 0, 33);
+      height: 33px;
+    }
+
+    .footer {
+      display: flex;
+      margin: 32px, 33px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style: none;
+      margin: 0px, 30px;
+      padding: 0px;
+      text-align: center;
+    }
+
+    .footer>div {
+      width: 223px;
+    }
+
+    .footer-rights {
+      text-align: center;
+    }
+
+    .leftsection .btn {
+      background-color: #290eb0;
+      font-size: 3 rem;
+      color: white;
+      border: 2px solid white;
+      border-radius: 20px;
+      font-size: 20px;
+      padding: 20px;
+      font-weight: 45px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Harry's Portfolio</div>
+
+      <div class="right"></div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><a href="/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi my name is <span class="purple"> Harry </span>
+        <div>And I am a Passionate</div>
+        <div></div>
+        <span id="element"></span>
+        <div class="button">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</buton>
+        </div>
+      </div>
+      <div class="Rightsection">
+        <img src="s.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondSection">
+      <span class="text-gray">What I HAVE DONE SO FAR</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="dev.png" alt="" />
+          <div class="vertical-title">HTML devlopers <br />(2011-22)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            harum fugit perferendis, quaerat sapiente molestiae ullam numquam
+            iste corrupti? Ea delectus neque voluptas itaque velit cum
+            voluptatum molestiae sequi, est, reiciendis nemo qui iure?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="dev.png" alt="" />
+          <div class="vertical-title">
+            Node.js<br />
+            (2014-15)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            harum fugit perferendis, quaerat sapiente molestiae ullam numquam
+            iste corrupti? Ea delectus neque voluptas itaque velit cum
+            voluptatum molestiae sequi, est, reiciendis nemo qui iure?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="dev.png" alt="" />
+          <div class="vertical-title">Python <br />(2016-17)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            harum fugit perferendis, quaerat sapiente molestiae ullam numquam
+            iste corrupti? Ea delectus neque voluptas itaque velit cum
+            voluptatum molestiae sequi, est, reiciendis nemo qui iure?
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="dev.png" alt="" />
+          <div class="vertical-title">Java <br />(2018-19)</div>
+          <div class="vertical-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            harum fugit perferendis, quaerat sapiente molestiae ullam numquam
+            iste corrupti? Ea delectus neque voluptas itaque velit cum
+            voluptatum molestiae sequi, est, reiciendis nemo qui iure?
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first"></div>
+
+      <h3>harrys developer portfolio</h3>
+
+      <div class="footer-second">
+        <ul>
+          <li>home</li>
+          <li>service</li>
+          <li>contact us</li>
+          <li>email us</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>home</li>
+          <li>service</li>
+          <li>contact us</li>
+          <li>email us</li>
+        </ul>
+      </div>
+      <div class="footer-forth">
+        <ul>
+          <li>home</li>
+          <li>service</li>
+          <li>contact us</li>
+          <li>email us</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      &copy; www.harrysportfolio.com |All rights reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "<i>Web developer</i> ",
+        " Graphic designer",
+        "Video Editor.",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
